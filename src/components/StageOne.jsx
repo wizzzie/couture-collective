@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 import { nextStage } from "../redux/reducers/stage";
 
 const StageOne = () => {
-  const genderOptions = ["Male", "Female"];
+  const genderOptions = ["Male", "Female", "Prefer Not Say"];
   const [inputs, setInputs] = useState({
     name: "",
     dateOfBirth: "",
